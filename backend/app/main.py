@@ -16,8 +16,7 @@ app.include_router(vendors.router)
 # CORS origins
 ORIGINS = [
     "http://localhost:3000",
-    "http://127.0.0.1:3000",
-    "http://139.59.87.2:3000"
+    "http://127.0.0.1:3000"
     # Add other origins as needed
 ]
 
